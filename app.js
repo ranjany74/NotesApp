@@ -1,3 +1,3 @@
-const fs = require('fs')
+const getNotes  = require('./notes.js')
 
-fs.writeFileSync('notes.txt','My name is Ranjan Yadav.')
+console.log(getNotes());
