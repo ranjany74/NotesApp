@@ -1,6 +1,7 @@
-const validator = require('validator');
-const { default: isEmail } = require('validator/lib/isEmail.js');
+// import chalk from 'chalk';
+const chalk = require('chalk')
+const yargs = require('yargs')
 const getNotes  = require('./notes.js')
 
-console.log(getNotes());
-console.log(validator.isURL('rkgmail.com'))
+console.log(process.argv)
+console.log(yargs.argv)
